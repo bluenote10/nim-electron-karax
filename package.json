@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "build/main.js",
   "scripts": {
-    "build_main": "nim js -o:./build/main.js ./src/main.nim",
+    "build_main": "nim js -d:node -o:./build/main.js ./src/main.nim",
     "build_renderer": "nim js -o:./build/renderer.js ./src/renderer.nim",
     "start": "npm run build_main && npm run build_renderer && electron ."
   },
