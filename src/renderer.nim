@@ -1,8 +1,3 @@
-#{.experimental: "notnil".}
-#import karax/prelude
-#import karax/kdom
-#import karax/vdom
-#import karax/karax
 include karax/prelude
 import karax_utils
 

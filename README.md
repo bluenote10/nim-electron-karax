@@ -1,6 +1,6 @@
 # nim-electron
 
-An example for how you can run Nim code in an Electron application. This was based on the [Electron Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
+An example of how to combine Nim + Karax + Electron. This was based on the [nim-electron](https://github.com/PMunch/nim-electron) and the [Electron Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
 ## To Use
 
@@ -8,19 +8,11 @@ To clone and run this repository you'll need [Git](https://git-scm.com), [Nim](h
 
 ```bash
 # Clone this repository
-git clone https://github.com/PMunch/nim-electron
+git clone https://github.com/bluenote10/nim-electron-karax
 # Go into the repository
-cd nim-electron
+cd nim-electron-karax
 # Install Electron dependencies
 npm install
-# Compile the Nim code
-nim js -d:node -o:main.js main.nim
-nim c app.nim
-# Run the native app
-./app
-# Run the Electron app
+# Compile backend + frontend and run app
 npm start
 ```
-
-The native app should start listening on port 1234 and the Electron app will connect to this port and send a "Hello, world" message.
-

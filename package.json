@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "nim-electron-karax",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Nim+Karax+Electron application",
   "main": "build/main.js",
   "scripts": {
     "build_main": "nim js -d:node -o:./build/main.js ./src/main.nim",
@@ -11,9 +11,8 @@
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "Karax",
+    "Nim",
     "demo"
   ],
   "author": "GitHub",
