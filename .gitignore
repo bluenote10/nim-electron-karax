@@ -1,1 +1,6 @@
-node_modules
+nimcache/
+node_modules/
+
+package-lock.json
+build/main.js
+build/renderer.js

@@ -2,9 +2,11 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "build/main.js",
   "scripts": {
-    "start": "electron ."
+    "build_main": "nim js -o:./build/main.js ./src/main.nim",
+    "build_renderer": "nim js -o:./build/renderer.js ./src/renderer.nim",
+    "start": "npm run build_main && npm run build_renderer && electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +19,6 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "^4.0.1"
   }
 }
