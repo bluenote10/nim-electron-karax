@@ -1,4 +1,4 @@
-# nim-electron
+# nim-electron-karax
 
 An example of how to combine Nim + Karax + Electron. This was based on the [nim-electron](https://github.com/PMunch/nim-electron) and the [Electron Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
